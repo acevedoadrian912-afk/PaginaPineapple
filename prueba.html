@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PINEAPPLE STORE</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    margin:0;
+    background:#f2f2f2;
+}
+
+/* HEADER */
+header{
+    background:#000;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+/* GRID DE PRODUCTOS */
+.catalogo{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap:25px;
+    padding:40px;
+    max-width:1000px;
+    margin:auto;
+}
+
+/* TARJETAS */
+.card{
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+/* IMAGEN */
+.card img{
+    width:120px;
+    margin-bottom:10px;
+}
+
+/* TITULO PRODUCTO */
+.card a{
+    text-decoration:none;
+    color:black;
+}
+
+/* BOTON */
+.card button{
+    background:#0071e3;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:20px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.card button:hover{
+    background:#005bb5;
+}
+
+/* FOOTER */
+
+footer{
+    background:#000;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>PINEAPPLE STORE</h1>
+<p>Encuentra tu próximo celular</p>
+</header>
+
+<div class="catalogo">
+
+<div class="card">
+<img src="1celular.png">
+<a href="comprar.html"><h3>ALPHAPRO</h3></a>
+<p>Pantalla 5.5"bateria de larga duración y estilo clasico <p>
+<a href="comprar.html"><button>Comprar</button></a>
+</div>
+
+<div class="card">
+<img src="2celular.png">
+<a href="comprar.html"><h3>BETAULTRA</h3></a>
+<p>Cámara 24MP, procesador mejorado y diseño moderno, ideal para fotografia <p>
+
+</p>
+<a href="comprar.html"><button>Comprar</button></a>
+</div>
+
+<div class="card">
+<img src="3celular.png">
+<a href="comprar.html"><h3>GAMMAPLUS</h3></a>
+<p>Pantalla AMOLED y perfecto para entrenemiento y juegos <p>
+
+<a href="comprar.html"><button>Comprar</button></a>
+</div>
+
+<div class="card">
+<img src="4celular.png">
+<a href="comprar.html"><h3>ZETA FOLD</h3></a>
+<p>Triple cámara y pantalla plegable, ideal para multitarea <p>
+    
+</p>
+<a href="comprar.html"><button>Comprar</button></a>
+</div>
+
+<div class="card">
+<img src="5celular.png">
+<a href="comprar.html"><h3>Delta lite</h3></a>
+
+
+<p>Triple cámara y bateria de 8000mAh, IA integrada<p>
+</p>
+<a href="comprar.html"><button>Comprar</button></a>
+</div>
+
+</div>
+
+<footer>
+<p>2026 Creado por Adrian Acevedo y Jeronimo Hernandez</p>
+</footer>
+
+</body>
+</html>
